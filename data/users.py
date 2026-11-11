@@ -31,3 +31,14 @@ REGISTER_USER = {
     "email": f"{uuid.uuid4().hex[:8]}@mail.com",
     "password": f"!1Qa_{uuid.uuid4().hex[:6]}"
 }
+
+
+EMPTY_FIELD = ""
+INVALID_DOB = "123"
+INVALID_EMAIL_NO_AT = "testmail.ru"
+INVALID_EMAIL_NO_DOMAIN = "test@"
+INVALID_EMAIL_NO_LOCAL = "@mail.ru"
+WEAK_PASSWORD = "Qwert11!"
+STRONG_PASSWORD = "Qwert!113"
+
+
